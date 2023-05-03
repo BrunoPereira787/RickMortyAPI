@@ -19,7 +19,7 @@ const Home = () => {
     load();
   }, [page, status, gender, species]);
 
-  if (data && data.error) return <div className="">{data.error}</div>;
+  if (data && data.error) return <div>{data.error}</div>;
 
   if (data)
     return (
@@ -32,7 +32,7 @@ const Home = () => {
               setGender={setGender}
               setSpecies={setSpecies}
             />
-            <div className="col">
+            <div className="col-lg col-12">
               <div className="row">
                 <Cards data={data.results} />
               </div>

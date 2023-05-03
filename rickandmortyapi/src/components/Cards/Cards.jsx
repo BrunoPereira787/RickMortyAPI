@@ -8,7 +8,7 @@ const Cards = ({ data }) => {
       <Link
         to={`/${dat.id}`}
         key={dat.id}
-        className="col-4 mb-3 position-relative"
+        className="col-lg-4 col-md-6 col-12 mb-3 position-relative"
       >
         <div className="border border-2 border-primary rounded">
           <img

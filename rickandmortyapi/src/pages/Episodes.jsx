@@ -35,10 +35,10 @@ const Episodes = () => {
           <p className="text-center">Air Date: {data.air_date}</p>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-lg-3 col-12">
             <InputGroup setInput={setEpisode} name="Episode" total={51} />
           </div>
-          <div className="col">
+          <div className="col-lg col-12">
             <div className="row">
               <Cards data={results} />
             </div>

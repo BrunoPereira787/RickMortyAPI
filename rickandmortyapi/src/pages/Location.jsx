@@ -36,10 +36,10 @@ const Episodes = () => {
           <p className="text-center fs-6">Type: {data.type}</p>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-lg-3 col-12">
             <InputGroup setInput={setLocation} name="Location" total={126} />
           </div>
-          <div className="col">
+          <div className="col-lg col-12">
             <div className="row">
               <Cards data={results} />
             </div>

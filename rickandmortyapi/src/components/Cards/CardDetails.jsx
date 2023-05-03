@@ -13,7 +13,6 @@ const CardDetails = () => {
     };
     load();
   }, [id]);
-  console.log(data);
   if (data)
     return (
       <div
